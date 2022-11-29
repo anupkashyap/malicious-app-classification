@@ -1,0 +1,405 @@
+
+
+##############################
+FREQUENTLY USED PERMISSIONS
+                               Accuracy  Balanced Accuracy  ROC AUC  F1 Score  \
+Model                                                                           
+LGBMClassifier                     0.90               0.89     0.89      0.90   
+DecisionTreeClassifier             0.89               0.88     0.88      0.89   
+ExtraTreesClassifier               0.90               0.88     0.88      0.90   
+RandomForestClassifier             0.89               0.88     0.88      0.89   
+LogisticRegression                 0.90               0.87     0.87      0.90   
+XGBClassifier                      0.88               0.86     0.86      0.88   
+BaggingClassifier                  0.88               0.86     0.86      0.88   
+LinearSVC                          0.88               0.85     0.85      0.88   
+ExtraTreeClassifier                0.88               0.85     0.85      0.88   
+KNeighborsClassifier               0.88               0.85     0.85      0.88   
+SGDClassifier                      0.87               0.85     0.85      0.87   
+SVC                                0.88               0.84     0.84      0.88   
+Perceptron                         0.86               0.84     0.84      0.86   
+RidgeClassifier                    0.85               0.83     0.83      0.85   
+RidgeClassifierCV                  0.85               0.83     0.83      0.85   
+LinearDiscriminantAnalysis         0.85               0.83     0.83      0.85   
+LabelPropagation                   0.88               0.82     0.82      0.88   
+LabelSpreading                     0.88               0.82     0.82      0.88   
+CalibratedClassifierCV             0.87               0.82     0.82      0.86   
+AdaBoostClassifier                 0.85               0.81     0.81      0.85   
+NuSVC                              0.83               0.74     0.74      0.81   
+PassiveAggressiveClassifier        0.80               0.73     0.73      0.79   
+NearestCentroid                    0.78               0.72     0.72      0.77   
+BernoulliNB                        0.78               0.72     0.72      0.77   
+QuadraticDiscriminantAnalysis      0.45               0.59     0.59      0.41   
+GaussianNB                         0.36               0.54     0.54      0.25   
+DummyClassifier                    0.69               0.50     0.50      0.57   
+
+                               Time Taken  
+Model                                      
+LGBMClassifier                       0.19  
+DecisionTreeClassifier               0.04  
+ExtraTreesClassifier                 0.44  
+RandomForestClassifier               0.50  
+LogisticRegression                   0.05  
+XGBClassifier                        0.47  
+BaggingClassifier                    0.06  
+LinearSVC                            0.14  
+ExtraTreeClassifier                  0.03  
+KNeighborsClassifier                 0.05  
+SGDClassifier                        0.07  
+SVC                                  0.16  
+Perceptron                           0.03  
+RidgeClassifier                      0.08  
+RidgeClassifierCV                    0.06  
+LinearDiscriminantAnalysis           0.04  
+LabelPropagation                     0.08  
+LabelSpreading                       0.06  
+CalibratedClassifierCV               0.30  
+AdaBoostClassifier                   0.14  
+NuSVC                                0.08  
+PassiveAggressiveClassifier          0.02  
+NearestCentroid                      0.04  
+BernoulliNB                          0.02  
+QuadraticDiscriminantAnalysis        0.03  
+GaussianNB                           0.03  
+DummyClassifier                      0.04  
+'tuple' object has no attribute '__name__'
+Invalid Classifier(s)
+
+
+##############################
+DANGEROUS PERMISSIONS
+                               Accuracy  Balanced Accuracy  ROC AUC  F1 Score  \
+Model                                                                           
+RandomForestClassifier             0.87               0.82     0.82      0.86   
+ExtraTreeClassifier                0.86               0.81     0.81      0.86   
+KNeighborsClassifier               0.84               0.79     0.79      0.84   
+LabelSpreading                     0.85               0.79     0.79      0.85   
+LabelPropagation                   0.85               0.79     0.79      0.85   
+BaggingClassifier                  0.84               0.78     0.78      0.83   
+XGBClassifier                      0.83               0.78     0.78      0.83   
+ExtraTreesClassifier               0.85               0.78     0.78      0.84   
+LinearDiscriminantAnalysis         0.83               0.77     0.77      0.83   
+AdaBoostClassifier                 0.84               0.77     0.77      0.83   
+LogisticRegression                 0.84               0.77     0.77      0.83   
+LinearSVC                          0.84               0.77     0.77      0.83   
+LGBMClassifier                     0.83               0.77     0.77      0.82   
+DecisionTreeClassifier             0.84               0.76     0.76      0.83   
+RidgeClassifierCV                  0.83               0.76     0.76      0.82   
+NuSVC                              0.83               0.76     0.76      0.82   
+SVC                                0.83               0.75     0.75      0.82   
+CalibratedClassifierCV             0.83               0.75     0.75      0.82   
+RidgeClassifier                    0.82               0.75     0.75      0.81   
+Perceptron                         0.72               0.73     0.73      0.73   
+NearestCentroid                    0.77               0.71     0.71      0.76   
+BernoulliNB                        0.77               0.71     0.71      0.76   
+SGDClassifier                      0.78               0.69     0.69      0.77   
+PassiveAggressiveClassifier        0.67               0.66     0.66      0.68   
+GaussianNB                         0.76               0.63     0.63      0.72   
+QuadraticDiscriminantAnalysis      0.33               0.50     0.50      0.21   
+DummyClassifier                    0.69               0.50     0.50      0.57   
+
+                               Time Taken  
+Model                                      
+RandomForestClassifier               0.51  
+ExtraTreeClassifier                  0.02  
+KNeighborsClassifier                 0.05  
+LabelSpreading                       0.14  
+LabelPropagation                     0.15  
+BaggingClassifier                    0.23  
+XGBClassifier                        0.30  
+ExtraTreesClassifier                 0.41  
+LinearDiscriminantAnalysis           0.07  
+AdaBoostClassifier                   0.45  
+LogisticRegression                   0.11  
+LinearSVC                            0.29  
+LGBMClassifier                       0.31  
+DecisionTreeClassifier               0.02  
+RidgeClassifierCV                    0.06  
+NuSVC                                0.14  
+SVC                                  0.05  
+CalibratedClassifierCV               0.69  
+RidgeClassifier                      0.06  
+Perceptron                           0.05  
+NearestCentroid                      0.04  
+BernoulliNB                          0.05  
+SGDClassifier                        0.09  
+PassiveAggressiveClassifier          0.05  
+GaussianNB                           0.05  
+QuadraticDiscriminantAnalysis        0.05  
+DummyClassifier                      0.03  
+'tuple' object has no attribute '__name__'
+Invalid Classifier(s)
+
+
+##############################
+FEATURE COUNT
+                               Accuracy  Balanced Accuracy  ROC AUC  F1 Score  \
+Model                                                                           
+RandomForestClassifier             0.87               0.82     0.82      0.86   
+ExtraTreeClassifier                0.86               0.81     0.81      0.86   
+KNeighborsClassifier               0.84               0.79     0.79      0.84   
+LabelSpreading                     0.85               0.79     0.79      0.85   
+LabelPropagation                   0.85               0.79     0.79      0.85   
+BaggingClassifier                  0.84               0.78     0.78      0.83   
+XGBClassifier                      0.83               0.78     0.78      0.83   
+ExtraTreesClassifier               0.85               0.78     0.78      0.84   
+LinearDiscriminantAnalysis         0.83               0.77     0.77      0.83   
+AdaBoostClassifier                 0.84               0.77     0.77      0.83   
+LogisticRegression                 0.84               0.77     0.77      0.83   
+LinearSVC                          0.84               0.77     0.77      0.83   
+LGBMClassifier                     0.83               0.77     0.77      0.82   
+DecisionTreeClassifier             0.84               0.76     0.76      0.83   
+RidgeClassifierCV                  0.83               0.76     0.76      0.82   
+NuSVC                              0.83               0.76     0.76      0.82   
+SVC                                0.83               0.75     0.75      0.82   
+CalibratedClassifierCV             0.83               0.75     0.75      0.82   
+RidgeClassifier                    0.82               0.75     0.75      0.81   
+Perceptron                         0.72               0.73     0.73      0.73   
+NearestCentroid                    0.77               0.71     0.71      0.76   
+BernoulliNB                        0.77               0.71     0.71      0.76   
+SGDClassifier                      0.78               0.69     0.69      0.77   
+PassiveAggressiveClassifier        0.67               0.66     0.66      0.68   
+GaussianNB                         0.76               0.63     0.63      0.72   
+QuadraticDiscriminantAnalysis      0.33               0.50     0.50      0.21   
+DummyClassifier                    0.69               0.50     0.50      0.57   
+
+                               Time Taken  
+Model                                      
+RandomForestClassifier               0.82  
+ExtraTreeClassifier                  0.05  
+KNeighborsClassifier                 0.13  
+LabelSpreading                       0.15  
+LabelPropagation                     0.15  
+BaggingClassifier                    0.07  
+XGBClassifier                        0.19  
+ExtraTreesClassifier                 0.69  
+LinearDiscriminantAnalysis           0.13  
+AdaBoostClassifier                   0.44  
+LogisticRegression                   0.16  
+LinearSVC                            0.25  
+LGBMClassifier                       0.14  
+DecisionTreeClassifier               0.05  
+RidgeClassifierCV                    0.07  
+NuSVC                                0.20  
+SVC                                  0.10  
+CalibratedClassifierCV               0.66  
+RidgeClassifier                      0.06  
+Perceptron                           0.05  
+NearestCentroid                      0.09  
+BernoulliNB                          0.07  
+SGDClassifier                        0.09  
+PassiveAggressiveClassifier          0.07  
+GaussianNB                           0.06  
+QuadraticDiscriminantAnalysis        0.11  
+DummyClassifier                      0.04  
+'tuple' object has no attribute '__name__'
+Invalid Classifier(s)
+
+
+##############################
+COMBINED FEATURES
+                               Accuracy  Balanced Accuracy  ROC AUC  F1 Score  \
+Model                                                                           
+RandomForestClassifier             0.92               0.90     0.90      0.92   
+DecisionTreeClassifier             0.88               0.88     0.88      0.88   
+ExtraTreesClassifier               0.91               0.88     0.88      0.91   
+LGBMClassifier                     0.90               0.87     0.87      0.90   
+BaggingClassifier                  0.89               0.86     0.86      0.89   
+XGBClassifier                      0.89               0.85     0.85      0.89   
+ExtraTreeClassifier                0.88               0.84     0.84      0.88   
+LabelPropagation                   0.88               0.84     0.84      0.87   
+LabelSpreading                     0.87               0.83     0.83      0.87   
+KNeighborsClassifier               0.88               0.83     0.83      0.87   
+LogisticRegression                 0.86               0.79     0.79      0.85   
+LinearSVC                          0.86               0.79     0.79      0.85   
+NuSVC                              0.87               0.79     0.79      0.86   
+SVC                                0.86               0.79     0.79      0.85   
+AdaBoostClassifier                 0.84               0.78     0.78      0.83   
+PassiveAggressiveClassifier        0.81               0.78     0.78      0.81   
+CalibratedClassifierCV             0.86               0.78     0.78      0.85   
+LinearDiscriminantAnalysis         0.83               0.75     0.75      0.82   
+RidgeClassifierCV                  0.83               0.75     0.75      0.82   
+BernoulliNB                        0.81               0.75     0.75      0.80   
+SGDClassifier                      0.81               0.75     0.75      0.81   
+RidgeClassifier                    0.83               0.74     0.74      0.81   
+NearestCentroid                    0.78               0.71     0.71      0.77   
+Perceptron                         0.75               0.69     0.69      0.74   
+GaussianNB                         0.76               0.64     0.64      0.73   
+QuadraticDiscriminantAnalysis      0.47               0.56     0.56      0.47   
+DummyClassifier                    0.69               0.50     0.50      0.57   
+
+                               Time Taken  
+Model                                      
+RandomForestClassifier               1.11  
+DecisionTreeClassifier               0.06  
+ExtraTreesClassifier                 0.61  
+LGBMClassifier                       0.23  
+BaggingClassifier                    0.15  
+XGBClassifier                        0.36  
+ExtraTreeClassifier                  0.05  
+LabelPropagation                     0.16  
+LabelSpreading                       0.20  
+KNeighborsClassifier                 0.11  
+LogisticRegression                   0.15  
+LinearSVC                            0.27  
+NuSVC                                0.18  
+SVC                                  0.06  
+AdaBoostClassifier                   0.49  
+PassiveAggressiveClassifier          0.06  
+CalibratedClassifierCV               0.97  
+LinearDiscriminantAnalysis           0.05  
+RidgeClassifierCV                    0.10  
+BernoulliNB                          0.05  
+SGDClassifier                        0.07  
+RidgeClassifier                      0.07  
+NearestCentroid                      0.06  
+Perceptron                           0.14  
+GaussianNB                           0.08  
+QuadraticDiscriminantAnalysis        0.06  
+DummyClassifier                      0.07  
+
+
+##############################
+RANDOM FOREST CLASSIFIER
+##############################
+
+
+------------------------------
+FREQUENTLY USED PERMISSIONS
+------------------------------
+Accuracy : 0.8333333333333334
+fit_time [0.68810248 0.57572556 0.68682647 0.63420892 0.66313338]
+score_time [0.08926511 0.07964182 0.06046581 0.09089851 0.09013605]
+test_f1 [0.74576271 0.76923077 0.74193548 0.67857143 0.59259259]
+test_precision [0.91666667 0.83333333 0.82142857 0.86363636 0.8       ]
+test_accuracy [0.86956522 0.86956522 0.85964912 0.84210526 0.80701754]
+
+
+------------------------------
+DANGEROUS PERMISSIONS
+------------------------------
+Accuracy : 0.7847222222222222
+fit_time [0.77078509 0.80178165 0.65005612 0.62691069 0.62319231]
+score_time [0.13146877 0.07477546 0.05522728 0.09367728 0.02863693]
+test_f1 [0.63157895 0.75362319 0.64285714 0.67857143 0.54545455]
+test_precision [0.81818182 0.76470588 0.81818182 0.86363636 0.71428571]
+test_accuracy [0.8173913  0.85217391 0.8245614  0.84210526 0.78070175]
+
+
+------------------------------
+FEATURE COUNT
+------------------------------
+Accuracy : 0.7847222222222222
+fit_time [0.26827788 0.15360379 0.13601923 0.14622307 0.14387798]
+score_time [0.01491141 0.01922464 0.01784348 0.01493716 0.02041793]
+test_f1 [0.63157895 0.75362319 0.64285714 0.67857143 0.54545455]
+test_precision [0.81818182 0.76470588 0.81818182 0.86363636 0.71428571]
+test_accuracy [0.8173913  0.85217391 0.8245614  0.84210526 0.78070175]
+
+
+------------------------------
+COMBINED FEATURES
+------------------------------
+Accuracy : 0.8472222222222222
+fit_time [0.14578223 0.15301108 0.14612913 0.14746952 0.1545558 ]
+score_time [0.01497388 0.0147357  0.01564837 0.01723123 0.01629066]
+test_f1 [0.68965517 0.78125    0.83870968 0.7037037  0.57142857]
+test_precision [0.86956522 0.86206897 0.92857143 0.95       0.72727273]
+test_accuracy [0.84347826 0.87826087 0.9122807  0.85964912 0.78947368]
+
+
+##############################
+DECISION TREE CLASSIFIER
+##############################
+
+
+------------------------------
+FREQUENTLY USED PERMISSIONS
+------------------------------
+Accuracy : 0.875
+fit_time [0.0042901  0.0043211  0.00388575 0.00408697 0.00399303]
+score_time [0.00409389 0.00443959 0.00338984 0.00352597 0.00353861]
+test_f1 [0.72222222 0.83116883 0.85294118 0.69565217 0.65714286]
+test_precision [0.7027027  0.76190476 0.85294118 0.68571429 0.63888889]
+test_accuracy [0.82608696 0.88695652 0.9122807  0.81578947 0.78947368]
+
+
+------------------------------
+DANGEROUS PERMISSIONS
+------------------------------
+Accuracy : 0.8472222222222222
+fit_time [0.00310349 0.0025897  0.00253558 0.00250983 0.00250053]
+score_time [0.00330544 0.00315881 0.00311708 0.00309706 0.00313354]
+test_f1 [0.66666667 0.71052632 0.84848485 0.6984127  0.70769231]
+test_precision [0.75       0.65853659 0.875      0.75862069 0.74193548]
+test_accuracy [0.8173913  0.80869565 0.9122807  0.83333333 0.83333333]
+
+
+------------------------------
+FEATURE COUNT
+------------------------------
+Accuracy : 0.8402777777777778
+fit_time [0.00252151 0.00247812 0.00251055 0.00254416 0.00267076]
+score_time [0.00347686 0.0031054  0.00311542 0.00310826 0.00314736]
+test_f1 [0.66666667 0.68421053 0.84848485 0.73846154 0.70769231]
+test_precision [0.75       0.63414634 0.875      0.77419355 0.74193548]
+test_accuracy [0.8173913  0.79130435 0.9122807  0.85087719 0.83333333]
+
+
+------------------------------
+COMBINED FEATURES
+------------------------------
+Accuracy : 0.8680555555555556
+fit_time [0.00339103 0.003304   0.00353575 0.00369239 0.00372863]
+score_time [0.00327635 0.00498247 0.00343156 0.00330901 0.00347638]
+test_f1 [0.71428571 0.76315789 0.85714286 0.75757576 0.63492063]
+test_precision [0.71428571 0.70731707 0.83333333 0.78125    0.68965517]
+test_accuracy [0.82608696 0.84347826 0.9122807  0.85964912 0.79824561]
+
+
+##############################
+SUPPORT VECTOR CLASSIFIER
+##############################
+
+
+------------------------------
+FREQUENTLY USED PERMISSIONS
+------------------------------
+Accuracy : 0.8194444444444444
+fit_time [0.01266646 0.01246428 0.01260233 0.01259065 0.01359725]
+score_time [0.0072763  0.00698113 0.00702572 0.00703454 0.00813842]
+test_f1 [0.76666667 0.79310345 0.72131148 0.69090909 0.55172414]
+test_precision [0.92       1.         0.81481481 0.9047619  0.66666667]
+test_accuracy [0.87826087 0.89565217 0.85087719 0.85087719 0.77192982]
+
+
+------------------------------
+DANGEROUS PERMISSIONS
+------------------------------
+Accuracy : 0.7777777777777778
+fit_time [0.01589346 0.01744223 0.01121902 0.01162243 0.0130024 ]
+score_time [0.0103755  0.00708222 0.00636172 0.00621176 0.006078  ]
+test_f1 [0.48       0.59259259 0.57692308 0.62745098 0.29787234]
+test_precision [0.8        0.84210526 0.83333333 0.94117647 0.53846154]
+test_accuracy [0.77391304 0.80869565 0.80701754 0.83333333 0.71052632]
+
+
+------------------------------
+FEATURE COUNT
+------------------------------
+Accuracy : 0.7777777777777778
+fit_time [0.01226068 0.01395392 0.01122546 0.01114416 0.01421237]
+score_time [0.00661182 0.00897813 0.00638938 0.00773954 0.01199555]
+test_f1 [0.48       0.59259259 0.57692308 0.62745098 0.29787234]
+test_precision [0.8        0.84210526 0.83333333 0.94117647 0.53846154]
+test_accuracy [0.77391304 0.80869565 0.80701754 0.83333333 0.71052632]
+
+
+------------------------------
+COMBINED FEATURES
+------------------------------
+Accuracy : 0.8263888888888888
+fit_time [0.01616335 0.01544714 0.01917052 0.01563859 0.01892352]
+score_time [0.00769877 0.00742626 0.00760031 0.00741768 0.007411  ]
+test_f1 [0.62962963 0.6        0.6        0.6        0.52173913]
+test_precision [0.89473684 1.         0.9375     0.9375     1.        ]
+test_accuracy [0.82608696 0.82608696 0.8245614  0.8245614  0.80701754]
